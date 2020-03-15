@@ -1,0 +1,14 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="demo.Train_27_Fragment.controller.Home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+	<Page id="page" title="{i18n>fragmentSample}">
+		<content>
+			<Panel headerText="{i18n>mainPart}">
+				<Button text="{i18n>showDialog}" press="onShowDialog" class="sapUiTinyMarginEnd"/>
+				<Button text="{i18n>submit}" press="onSubmit" />				
+			</Panel>			
+			<!--フラグメントの埋め込み-->
+			<core:Fragment id="formFragment" fragmentName="demo.Train_27_Fragment.fragment.Form" type="XML" />
+		</content>
+	</Page>
+</mvc:View>

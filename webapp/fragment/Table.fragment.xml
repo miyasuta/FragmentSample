@@ -1,0 +1,32 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Panel xmlns="sap.m" headerText="{i18n>panelTitle2}">
+		<Table id="productTable">
+			<columns>
+				<Column>
+					<Text text="{i18n>productID}"/>
+				</Column>
+				<Column>
+					<Text text="{i18n>productName}"/>
+				</Column>	
+				<Column>
+					<Text text="{i18n>categoryID}"/>
+				</Column>				
+			</columns>
+			<!--<items>-->
+			<!--	<ColumnListItem>-->
+			<!--		<cells>-->
+			<!--			<Text text="{ProductID}"/>-->
+			<!--		</cells>-->
+			<!--		<cells>-->
+			<!--			<Text text="{ProductName}"/>-->
+			<!--		</cells>	-->
+			<!--		<cells>-->
+			<!--			<Text text="{CategoryID}"/>-->
+			<!--		</cells>				-->
+			<!--	</ColumnListItem>-->
+			<!--</items>-->
+		</Table>		
+	</Panel>
+</core:FragmentDefinition>
